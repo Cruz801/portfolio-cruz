@@ -41,7 +41,7 @@ export default function Contact() {
 
 
     return (
-        <section className="page">
+        <section className="contact-page">
             <h1>Contact me</h1>
            
             <Form onSubmit={handleSubmit}>
@@ -71,7 +71,7 @@ export default function Contact() {
                 <Button variant="primary" type="submit">
                     Submit
                 </Button>
-                <Form.Text className="text-muted">
+                <Form.Text className="text-muted error-message">
                 { errorMessage}
                     </Form.Text>
             </Form>

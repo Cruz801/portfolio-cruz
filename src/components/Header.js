@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <Navbar className="header" variant="dark" expand="lg">
     <Container className="d-flex">
-      <Navbar.Brand>Steven Cruz</Navbar.Brand>
+      <Navbar.Brand className="name">Steven Cruz</Navbar.Brand>
       <div>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
