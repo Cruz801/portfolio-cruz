@@ -1,0 +1,59 @@
+.App {
+  /*text-align: center;*/
+  background-color: #6c6c6e;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: rgb(8, 112, 230);
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: white;
+  font-size: 26px;
+}
+
+.pagecontent {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.page {
+  width: 80%;
+}
+
+.about-content {
+  display: flex;
+}
+
+.about-left {
+width: 40%;
+
+}
+
+.about-left>img {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.about-right {
+width: 60%;
+padding: 20px;
+display: flex;
+align-items: center;
+font-size: 25px;
+}
+
+.livesite, .githublink {
+  text-decoration: none;
+  background-color: rgb(14, 30, 245);
+  color: white;
+  padding: 10px;
+}
+
+.livesite {
+  margin-right: 30px
+}
