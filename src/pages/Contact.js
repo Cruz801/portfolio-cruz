@@ -61,7 +61,7 @@ export default function Contact() {
                     </Form.Text>
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicMessage">
-                    <Form.Label>Meassage</Form.Label>
+                    <Form.Label>Message</Form.Label>
                     <Form.Control onChange={handleInputChange} as='textarea' name="message" defaultValue={message} onBlur={handleChange} rows="5" />
                     <Form.Text className="text-muted">
                

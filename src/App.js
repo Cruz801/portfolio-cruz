@@ -3,9 +3,11 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import './App.css';
 import Header from './components/Header';
+import Footer from './components/Footer';
+
 
 
 function App() {
@@ -21,6 +23,7 @@ function App() {
         <Route path="resume" element={<Resume />} />
       </Routes>
       </div>
+      <Footer/>
     </div>
   );
 }

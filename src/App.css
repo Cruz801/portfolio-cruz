@@ -1,3 +1,10 @@
+
+/* * {
+  height: none;
+  width: none;
+} */
+
+
 .App {
   /*text-align: center;*/
   background-color: #1c1c1f;
@@ -20,15 +27,20 @@
   margin: 10px;
 }
 
+.page {
+  color: white;
+  width: 100vw;
+}
+
 .pagecontent {
   display: flex;
   justify-content: center;
-  width: 50%;
+  width: 100vw;
   padding-top: 100px;
 }
 
 .contact-page {
-  width: 70%;
+  width: 40%;
   color: white;
 
 }
@@ -40,11 +52,11 @@
 
 .about-content {
   display: flex;
-
 }
 
 .about-left {
 width: 40%;
+color: white;
 
 }
 
@@ -71,6 +83,7 @@ font-size: 35px;
 
 .livesite {
   margin-right: 30px
+
 }
 
 .error-message {
@@ -78,3 +91,19 @@ font-size: 35px;
   font-size: 20px;
   margin: 40px;
 }
+
+.portImage img {
+  max-width:100%;
+  height: auto;
+}
+
+.linked {
+  display: flex;
+  justify-content: flex-end;
+  width: 03%;
+} 
+
+/* .row, .card-info {
+  width: 100vw !important;
+  height: 100vh !important;
+} */

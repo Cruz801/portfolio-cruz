@@ -8,8 +8,8 @@ export default function Portfolio() {
         <h1>Portfolio</h1>
         <Row className="project-cards">
     {projects.map((project)=> {
-        return <Col key={project.title} sm={12} md={6} lg={4}>
-        <div className="mb-4">
+        return <Col key={project.title} sm={12} md={6} lg={3}>
+        <div className="mb-4 portImage">
             <h2>{project.title}</h2>
             <img src={project.image} alt={project.title}/>
             <p>{project.description}</p>
