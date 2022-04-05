@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio-cruz/static/css/main.6c89f0b5.css",
+    "main.js": "/portfolio-cruz/static/js/main.b787656b.js",
+    "static/js/787.1b877dfc.chunk.js": "/portfolio-cruz/static/js/787.1b877dfc.chunk.js",
+    "static/media/apexLegends.png": "/portfolio-cruz/static/media/apexLegends.923a568d3ca3972b633d.png",
+    "static/media/mental.png": "/portfolio-cruz/static/media/mental.6a8c928648133e62c912.png",
+    "static/media/Resume.pdf": "/portfolio-cruz/static/media/Resume.b15caa1d6dc899a8086a.pdf",
+    "index.html": "/portfolio-cruz/index.html",
+    "main.6c89f0b5.css.map": "/portfolio-cruz/static/css/main.6c89f0b5.css.map",
+    "main.b787656b.js.map": "/portfolio-cruz/static/js/main.b787656b.js.map",
+    "787.1b877dfc.chunk.js.map": "/portfolio-cruz/static/js/787.1b877dfc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c89f0b5.css",
+    "static/js/main.b787656b.js"
+  ]
+}
